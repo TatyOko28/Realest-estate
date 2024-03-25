@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+# About Bouesso_Service (essaise)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In this project, I would like to present my know-how as a full stack developer. To begin with, this project is designed to allow a group of real estate agents in different locations to promote their business on a digital platform by selling or renting houses. From building it to deploying it on github, it took me about 8 days.
 
-## Available Scripts
+## Types of backend technologies used
+To do this, at the backend level, I used various technologies such as: django, djangorestframework, django-cors-headers, djangorest framework-simplejwt, pillow, psycopg2.
 
-In the project directory, you can run:
+## Importance of these technologies
+djangorestframework: allows the junction between the server side (django) and the frontend side (React). If we only had html templates, we shouldn't use it.
+django-cors-headers: allows communication between the backend and frontend during requests AJAX made from a domain different from that where the Django application is hosted.
+djangorestframework-simplejwt: it allows to obtain tokens (access or refresh django-web-token) during authentication.
+Pillow: is a Python library that provides powerful image processing and manipulation capabilities.
+psycopg2: allows communication with the postgresql database.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Types of frontend technologies used
+At the frontend level, we used different technologies such as: react-router-dom, Redux, redux-thunk, react-redux, redux-devtools-extension, uuid, react-loader-spinner
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Importance of these technologies
+react-router-dom: a routing library for React applications. It makes navigation easier to manage, allowing your application to switch between different "pages" without reloading the entire page.
+Redux: helps you write applications that behave consistently, run in different environments (client, server, and native)
+redux-thunk:  it allows writing functions with logic inside that can interact with a Redux store's dispatch and getState methods.
+react-redux:  it lets your React components read data from a Redux store, and dispatch actions to the store to update state.
+redux-devtools-extension: allows us to display a table for managing the behavior of our app at the time of authentication or at the time of other action that causes the frontend and the database to react;
+uuid: allows unique identification;
+react-loader-spinner: allows you to display the loading signal when waiting for an async or wait function.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To install the dependencies we used the package managers for each language. for example: `npm install` for node.js libraries or `python manage.py install` for pythons libraries.
